@@ -1,0 +1,1 @@
+export const homeMessage = "I'm home Working";

@@ -1,0 +1,1 @@
+export const menuMessage = "I'm a menu Working";
