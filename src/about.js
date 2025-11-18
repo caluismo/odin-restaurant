@@ -1,1 +1,4 @@
-export const aboutMessage = "I'm about Working";
+export default function loadAbout() {
+    const container = document.getElementById("content");
+    container.textContent = "";
+};
