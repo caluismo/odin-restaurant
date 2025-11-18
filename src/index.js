@@ -1,9 +1,11 @@
 import './style.css';
-import myImage from './images/restaurant.jpg';
-import { homeMessage } from "./home";
-import { menuMessage } from "./menu";
-import { aboutMessage } from "./about";
+import loadHome from "./home.js";
 
-console.log(homeMessage);
-console.log(menuMessage);
-console.log(aboutMessage);
+document.addEventListener("DOMContentLoaded", () => {
+    const container = document.getElementById("content");
+
+    loadHome();
+
+    const homeBtn = document.getElementById("home-btn");
+    homeBtn.addEventListener("click", loadHome);
+});
