@@ -70,9 +70,9 @@ header > nav {display: flex; gap: 1rem;}
 
 .subheadline {grid-area: header; margin-top: 10px;}
 .figure { grid-area: image; flex-direction: column;}
-.description { grid-area: para; }
-.why { grid-area: why; }
-.hours { grid-area: hours; }
+.description { grid-area: para;}
+.why { grid-area: why;}
+.hours { grid-area: hours;}
 .image {width: clamp(50px, 35vw, 350px);}
 
 .home-content > * {
@@ -120,4 +120,23 @@ header > nav {display: flex; gap: 1rem;}
 
 .menu-list li {
     margin-bottom: 1rem;
+}
+
+/* About Content */
+.about-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    padding: 2rem;
+}
+
+.about-intro {
+    max-width: 600px;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.about-card {
+    width: clamp(250px, 60vw, 600px);
 }
