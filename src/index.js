@@ -1,3 +1,5 @@
+import './style.css';
+import myImage from './images/restaurant.jpg';
 import { homeMessage } from "./home";
 import { menuMessage } from "./menu";
 import { aboutMessage } from "./about";
